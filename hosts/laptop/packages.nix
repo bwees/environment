@@ -28,10 +28,13 @@
   };
 
   # Nix Package Store
+  nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     just
     nixfmt-rfc-style
     defaultbrowser
+    ansible
+    _1password-cli
   ];
 
   imports = [
