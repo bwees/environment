@@ -1,6 +1,12 @@
 { config, pkgs, ... }:
 
+let
+  user = config.system.primaryUser;
+in
 {
+
+  users.users.bwees.home = "/Users/${user}";
+
   system.defaults.dock = {
     persistent-apps = [
       "/Applications/Chromium.app"
@@ -15,11 +21,11 @@
       "/Applications/Visual Studio Code.app"
       "/Applications/Xcode.app"
       "/Applications/Ghostty.app"
-      "/Users/${config.system.primaryUser}/Applications/Autodesk Fusion.app"
+      "/Users/${user}/Applications/Autodesk Fusion.app"
     ];
 
     persistent-others = [
-      "/Users/${config.system.primaryUser}/Downloads"
+      "/Users/${user}/Downloads"
     ];
 
     tilesize = 42;
