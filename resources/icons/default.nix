@@ -16,10 +16,6 @@
         path = "/Applications/Ghostty.app";
         icon = ./ghostty.icns;
       }
-      {
-        path = "/Applications/Spark.app";
-        icon = ./spark.icns;
-      }
     ];
   };
 }
