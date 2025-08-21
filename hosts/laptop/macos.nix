@@ -65,6 +65,37 @@ in
         # Install System data files & security updates
         CriticalUpdateInstall = 1;
       };
+      # keybindings
+      # Script to export symbolic hotkey configs from MacOS
+      # https://gist.github.com/sawadashota/8e7ce32234e0f07a03e955f22ec4c0f9
+      # Screenshot selected area to file with Cmd+Option+Shift+4
+      "com.apple.symbolichotkeys" = {
+        AppleSymbolicHotKeys = {
+          "30" = {
+            enabled = true;
+            value = {
+              parameters = [
+                52
+                21
+                1441792
+              ];
+              type = "standard";
+            };
+          };
+          # Screenshot selected area to clipboard with Cmd+Shift+4
+          "31" = {
+            enabled = true;
+            value = {
+              parameters = [
+                52
+                21
+                1179648
+              ];
+              type = "standard";
+            };
+          };
+        };
+      };
     };
   };
 
