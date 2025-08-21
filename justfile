@@ -1,3 +1,3 @@
 switch:
-  sudo darwin-rebuild switch --flake ~/devenv#laptop
+  sudo darwin-rebuild switch --flake .#laptop
 
