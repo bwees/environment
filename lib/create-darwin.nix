@@ -41,9 +41,9 @@
         }
         # Users
         {
-          users.users.bwees = {
-            description = "Brandon Wees";
-            home = "/Users/bwees";
+          users.users.${username} = {
+            description = "${username}";
+            home = "/Users/${username}";
           };
         }
         inputs.darwin-custom-icons.darwinModules.default
