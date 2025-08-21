@@ -18,6 +18,9 @@
       "spotify"
       "autodesk-fusion"
       "lightburn"
+
+      "affinity-designer"
+      "affinity-photo"
     ];
 
     masApps = {
