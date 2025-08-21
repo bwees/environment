@@ -28,6 +28,15 @@
       "Goodnotes" = 1444383602;
       "Xcode" = 497799835;
     };
+
+    taps = [
+      "CQLabs/dcm"
+    ];
+
+    brews = [
+      "dcm"
+    ];
+
   };
 
   # Nix Package Store
@@ -38,6 +47,7 @@
     defaultbrowser
     ansible
     _1password-cli
+    gh
   ];
 
   imports = [
