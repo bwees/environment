@@ -28,15 +28,6 @@
       "Goodnotes" = 1444383602;
       "Xcode" = 497799835;
     };
-
-    taps = [
-      "CQLabs/dcm"
-    ];
-
-    brews = [
-      "dcm"
-    ];
-
   };
 
   # Nix Package Store
@@ -51,6 +42,9 @@
   ];
 
   imports = [
+    # projects
+    ./projects/immich.nix
+
     ../../resources/icons
   ];
 }
