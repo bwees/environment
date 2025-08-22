@@ -43,4 +43,18 @@
       };
     };
   };
+
+  # Ghostty
+  home.file.ghostty-theme = {
+    enable = true;
+    source = ghostty/atom-one-dark;
+    target = "./.config/ghostty/themes/atom-one-dark";
+  };
+
+  home.file.ghostty-config = {
+    enable = true;
+    source = ghostty/config;
+    target = "./Library/Application Support/com.mitchellh.ghostty/config";
+  };
+
 }

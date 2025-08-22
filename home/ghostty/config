@@ -1,0 +1,6 @@
+theme = atom-one-dark
+
+clipboard-paste-protection = false
+shell-integration = zsh
+
+auto-update = off
