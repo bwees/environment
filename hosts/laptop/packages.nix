@@ -42,9 +42,7 @@
   ];
 
   imports = [
-    # projects
-    ./projects/immich.nix
-
+    # Icon modifications
     ../../resources/icons
   ];
 }

@@ -1,8 +1,10 @@
 { pkgs, ... }:
 {
   imports = [
-    ./packages.nix
     ./macos.nix
-    ./activation.nix
+    ./packages.nix
+
+    # projects
+    ./projects/immich.nix
   ];
 }
