@@ -44,6 +44,19 @@
     };
   };
 
+  programs.zsh = {
+    enable = true;
+
+    enableCompletion = true;
+    initContent = builtins.readFile ./.zshrc;
+
+    oh-my-zsh = {
+      enable = true;
+      theme = "af-magic";
+      plugins = [ "git" ];
+    };
+  };
+
   # Ghostty
   home.file.ghostty-theme = {
     enable = true;
