@@ -22,6 +22,7 @@ in
       "/Applications/Xcode.app"
       "/Applications/Ghostty.app"
       "/Users/${user}/Applications/Autodesk Fusion.app"
+      "/System/Applications/iPhone Mirroring.app"
     ];
 
     persistent-others = [
