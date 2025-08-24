@@ -1,9 +1,15 @@
-{ config, pkgs, ... }:
+{
+  config,
+  pkgs,
+  inputs,
+  ...
+}:
 
 {
   # Homebrew Package Manager
   homebrew = {
     enable = true;
+
     casks = [
       "aldente"
       "visual-studio-code"
@@ -21,6 +27,9 @@
 
       "affinity-designer"
       "affinity-photo"
+
+      # bwees tap
+      "firecontrol"
     ];
 
     masApps = {
@@ -28,6 +37,10 @@
       "Goodnotes" = 1444383602;
       "Xcode" = 497799835;
     };
+
+    taps = [
+      "bwees/tap"
+    ];
   };
 
   # Nix Package Store
