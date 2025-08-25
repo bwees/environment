@@ -21,6 +21,7 @@ in
       "/Applications/Visual Studio Code.app"
       "/Applications/Xcode.app"
       "/Applications/Ghostty.app"
+      "/Applications/OrcaSlicer.app"
       "/Users/${user}/Applications/Autodesk Fusion.app"
       "/System/Applications/iPhone Mirroring.app"
     ];

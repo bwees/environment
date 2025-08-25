@@ -30,6 +30,7 @@
 
       # bwees tap
       "firecontrol"
+      "orcaslicer-bwees@nightly"
     ];
 
     masApps = {
