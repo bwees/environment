@@ -24,13 +24,12 @@
       "spotify"
       "autodesk-fusion"
       "lightburn"
-
+      "orcaslicer@nightly"
       "affinity-designer"
       "affinity-photo"
 
       # bwees tap
       "firecontrol"
-      "orcaslicer-bwees@nightly"
     ];
 
     masApps = {
