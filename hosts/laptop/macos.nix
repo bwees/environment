@@ -50,7 +50,9 @@ in
       "com.apple.driver.AppleBluetoothMultitouch.mouse" = {
         MouseButtonMode = "TwoButton";
       };
-
+      "com.apple.WindowManager" = {
+        EnableTiledWindowMargins = false;
+      };
       "com.apphousekitchen.aldente-pro" = {
         menuBarIconStyle = 2;
         heatProtectMode = true;
