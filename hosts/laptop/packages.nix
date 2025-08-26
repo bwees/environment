@@ -52,6 +52,7 @@
     ansible
     _1password-cli
     gh
+    yt-dlp
   ];
 
   imports = [
