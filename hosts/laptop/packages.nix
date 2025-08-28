@@ -27,7 +27,8 @@
       "orcaslicer@nightly"
       "affinity-designer"
       "affinity-photo"
-
+      "zoom"
+      
       # bwees tap
       "firecontrol"
     ];
