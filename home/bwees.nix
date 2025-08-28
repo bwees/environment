@@ -11,11 +11,38 @@
 
   programs.ssh = {
     enable = true;
+    enableDefaultConfig = false;
     extraConfig = ''
-      Host *
-        IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
-        SetEnv TERM=xterm-256color
+      StrictHostKeyChecking no
     '';
+
+    matchBlocks = {
+      "*" = {
+        extraOptions = {
+          IdentityAgent = "\"~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock\"";
+          SetEnv = "TERM=xterm-256color";
+        };
+      };
+
+      # Homelab hosts
+      "homelab-bwees" = {
+        hostname = "homelab-bwees";
+      };
+      "homelab-home" = {
+        hostname = "homelab-home";
+      };
+      "homelab-linode" = {
+        hostname = "homelab-linode";
+      };
+
+      # Starforge hosts
+      "starforge-docker" = {
+        user = "starforge";
+      };
+      "starforge-pc" = {
+        user = "root";
+      };
+    };
   };
 
   programs.git = {
