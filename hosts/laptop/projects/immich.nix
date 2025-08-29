@@ -16,5 +16,9 @@
     dart
     pnpm
     cocoapods
+
+    # immich-retro dvd build
+    dvdauthor
+    cdrtools
   ];
 }
