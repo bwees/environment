@@ -46,6 +46,12 @@ in
     loginwindow.GuestEnabled = false;
     ".GlobalPreferences"."com.apple.mouse.scaling" = 1.0;
 
+    CustomSystemPreferences = {
+      "com.apple.DiskArbitration.diskarbitrationd" = {
+        DADisableEjectNotification = true;
+      };
+    };
+
     CustomUserPreferences = {
       "com.apple.driver.AppleBluetoothMultitouch.mouse" = {
         MouseButtonMode = "TwoButton";
