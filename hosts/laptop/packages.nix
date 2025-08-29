@@ -28,6 +28,8 @@
       "affinity-designer"
       "affinity-photo"
       "zoom"
+      "vlc"
+      "utm"
       
       # bwees tap
       "firecontrol"
@@ -54,6 +56,8 @@
     _1password-cli
     gh
     yt-dlp
+    ffmpeg
+    wget
   ];
 
   imports = [
