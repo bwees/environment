@@ -18,7 +18,7 @@
     cocoapods
 
     # immich-retro dvd build
-    dvdauthor
-    cdrtools
+    # dvdauthor
+    # cdrtools
   ];
 }
