@@ -30,6 +30,7 @@
       "zoom"
       "vlc"
       "utm"
+      "docker"
       
       # bwees tap
       "firecontrol"
