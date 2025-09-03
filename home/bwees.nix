@@ -84,6 +84,25 @@
     };
   };
 
+
+  programs.mise = {
+    enable = true;
+    enableZshIntegration = true;
+
+    settings = {
+      experimental = true;
+      verbose = false;
+      auto_install = true;
+    };
+
+    globalConfig = {
+      tools = {
+        node = "lts";
+        python = "3.13";
+      };
+    };
+  };
+
   # Ghostty
   home.file.ghostty-theme = {
     enable = true;

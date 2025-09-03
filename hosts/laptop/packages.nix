@@ -45,6 +45,10 @@
     taps = [
       "bwees/tap"
     ];
+
+    brews = [
+      "cocoapods"
+    ];
   };
 
   # Nix Package Store
@@ -59,7 +63,10 @@
     yt-dlp
     ffmpeg
     wget
+    mise
   ];
+
+  # see home/bwees.nix for mise packages
 
   imports = [
     # Icon modifications
