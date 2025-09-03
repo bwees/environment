@@ -104,16 +104,41 @@
   };
 
   # Ghostty
-  home.file.ghostty-theme = {
+  programs.ghostty = {
     enable = true;
-    source = ghostty/atom-one-dark;
-    target = "./.config/ghostty/themes/atom-one-dark";
-  };
+    enableZshIntegration = true;
+    package = null;
 
-  home.file.ghostty-config = {
-    enable = true;
-    source = ghostty/config;
-    target = "./Library/Application Support/com.mitchellh.ghostty/config";
-  };
+    settings = {
+      auto-update = "off";
+      clipboard-paste-protection = false;
+      theme = "atom-one-dark";
+    };
 
+    themes = {
+      atom-one-dark = {
+        background = "1e2127";
+        foreground = "abb2bf";
+
+        palette = [
+          "0=#1e2127"
+          "1=#e06c75"
+          "2=#98c379"
+          "3=#d19a66"
+          "4=#61afef"
+          "5=#c678dd"
+          "6=#56b6c2"
+          "7=#abb2bf"
+          "8=#5c6370"
+          "9=#e06c75"
+          "10=#98c379"
+          "11=#d19a66"
+          "12=#61afef"
+          "13=#c678dd"
+          "14=#56b6c2"
+          "15=#ffffff"
+        ];
+      };
+    };
+  };
 }
