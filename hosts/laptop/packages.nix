@@ -8,7 +8,8 @@
 {
   # Homebrew Package Manager
   homebrew = {
-    enable = true;
+    enable = true; 
+    onActivation.cleanup = "zap";
 
     casks = [
       "aldente"
@@ -30,7 +31,7 @@
       "zoom"
       "vlc"
       "utm"
-      "docker"
+      "docker-desktop"
       
       # bwees tap
       "firecontrol"
@@ -47,6 +48,7 @@
     ];
 
     brews = [
+      "mas"
       "cocoapods"
     ];
   };
