@@ -66,6 +66,7 @@
     ffmpeg
     wget
     mise
+    nmap
   ];
 
   # see home/bwees.nix for mise packages
