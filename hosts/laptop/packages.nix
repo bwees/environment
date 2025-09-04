@@ -65,7 +65,6 @@
     wget
     mise
     nmap
-    typst
   ];
 
   # see home/bwees.nix for mise packages

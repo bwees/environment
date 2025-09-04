@@ -102,6 +102,7 @@
         ansible = "latest";
         pipx = "latest";
         just = "latest";
+        typst = "latest";
       };
     };
   };
