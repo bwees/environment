@@ -59,7 +59,6 @@
     just
     nixfmt-rfc-style
     defaultbrowser
-    ansible
     _1password-cli
     gh
     yt-dlp
