@@ -101,6 +101,7 @@
         python = "3.13";
         ansible = "latest";
         pipx = "latest";
+        just = "latest";
       };
     };
   };

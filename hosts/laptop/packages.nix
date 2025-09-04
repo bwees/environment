@@ -56,7 +56,6 @@
   # Nix Package Store
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
-    just
     nixfmt-rfc-style
     defaultbrowser
     _1password-cli
