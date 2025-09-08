@@ -76,14 +76,11 @@
 
     enableCompletion = true;
     initContent = builtins.readFile ./.zshrc;
-
-    oh-my-zsh = {
-      enable = true;
-      theme = "af-magic";
-      plugins = [ "git" ];
-    };
   };
 
+  imports = [
+    ./starship.nix
+  ];
 
   programs.mise = {
     enable = true;

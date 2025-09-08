@@ -8,7 +8,7 @@
 {
   # Homebrew Package Manager
   homebrew = {
-    enable = true; 
+    enable = true;
     onActivation.cleanup = "zap";
 
     casks = [
@@ -32,7 +32,7 @@
       "vlc"
       "utm"
       "docker-desktop"
-      
+
       # bwees tap
       "firecontrol"
     ];
@@ -65,6 +65,11 @@
     wget
     mise
     nmap
+  ];
+
+  # Fonts
+  fonts.packages = with pkgs; [
+    nerd-fonts.symbols-only
   ];
 
   # see home/bwees.nix for mise packages
