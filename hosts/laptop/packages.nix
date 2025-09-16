@@ -65,6 +65,7 @@
     wget
     mise
     nmap
+    duti
   ];
 
   # Fonts
