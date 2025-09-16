@@ -9,7 +9,7 @@
   programs.starship = {
     enable = true;
     settings = {
-      format = "$os$username$hostname$directory$git_branch$git_commit$git_status$c$golang$haskell$java$julia$nodejs$nim$rust$scala$dotnet$docker_context$fill$time$line_break$character";
+      format = "$os$username$hostname$directory$git_branch$git_commit$git_status$c$golang$haskell$java$julia$nodejs$nim$rust$scala$dotnet$docker_context$character";
 
       username = {
         show_always = true;
