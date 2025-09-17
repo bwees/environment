@@ -20,6 +20,7 @@ in
       "/Applications/Spotify.app"
       "/Applications/Visual Studio Code.app"
       "/Applications/Xcode.app"
+      "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
       "/Applications/Ghostty.app"
       "/Applications/OrcaSlicer.app"
       # "/Users/${user}/Applications/Autodesk Fusion.app"
