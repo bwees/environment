@@ -32,6 +32,7 @@
       "vlc"
       "utm"
       "docker-desktop"
+      "android-studio"
 
       # bwees tap
       "firecontrol"
