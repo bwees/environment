@@ -120,7 +120,7 @@ in
     echo "Setting macOS file defaults..."
     su -l ${config.users.users.bwees.name} -c '
       ${pkgs.duti}/bin/duti -s com.softfever3d.orca-slicer stl all
-      ${pkgs.duti}/bin/duti -s org.chromium.Chromium public.html all
+      ${pkgs.duti}/bin/duti -s com.autodesk.fusion360 step all
       ${pkgs.duti}/bin/duti -s com.readdle.smartemail-Mac mailto all
     '
   '';
