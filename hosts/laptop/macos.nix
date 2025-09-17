@@ -117,7 +117,7 @@ in
 
   # https://github.com/nix-darwin/nix-darwin/blob/master/modules/system/activation-scripts.nix
   system.activationScripts.userDefaults.text = ''
-    echo "Setting macOS file defaults..."
+    echo "setting macOS file defaults..."
     su -l ${config.users.users.bwees.name} -c '
       ${pkgs.duti}/bin/duti -s com.softfever3d.orca-slicer stl all
       ${pkgs.duti}/bin/duti -s com.autodesk.fusion360 step all
