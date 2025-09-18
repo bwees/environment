@@ -95,11 +95,15 @@
     globalConfig = {
       tools = {
         node = "lts";
+        pnpm = "latest";
         python = "3.13";
         ansible = "latest";
         pipx = "latest";
         just = "latest";
         typst = "latest";
+      };
+      settings = {
+        idiomatic_version_file_enable_tools = [ ];
       };
     };
   };
