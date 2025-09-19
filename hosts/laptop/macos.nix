@@ -27,9 +27,7 @@ in
       "/System/Applications/iPhone Mirroring.app"
     ];
 
-    persistent-others = [
-      "/Users/${user}/Downloads"
-    ];
+    # persistent-others: see below in CustomUserPreferences
 
     tilesize = 42;
     show-recents = false;
@@ -111,6 +109,26 @@ in
             };
           };
         };
+      };
+
+      # persistent-others does not currently support setting view type and sort
+      # https://gist.github.com/kamui545/c810eccf6281b33a53e094484247f5e8
+      "com.apple.dock" = {
+        persistent-others = [
+          {
+            tile-data = {
+              arrangement = 2;
+              displayas = 0;
+              file-data = {
+                _CFURLString = "file:///Users/${user}/Downloads/";
+                _CFURLStringType = 15;
+              };
+              file-type = 2;
+              showas = 1;
+            };
+            tile-type = "directory-tile";
+          }
+        ];
       };
     };
   };
