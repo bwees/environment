@@ -67,6 +67,7 @@
     mise
     nmap
     duti
+    postgresql
   ];
 
   # Fonts
