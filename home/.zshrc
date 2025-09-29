@@ -9,7 +9,7 @@ export CHROME_EXECUTABLE="/Applications/Chromium.app/Contents/MacOS/Chromium"
 
 # aliases
 alias gro="git rebase origin/main"
-alias gpf="git push --force"
+alias gpf="git push --force-with-lease"
 
 # Enable history search using up/down arrows
 bindkey '^[[A' history-beginning-search-backward   # Up arrow
