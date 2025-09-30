@@ -19,6 +19,7 @@ in
       "/System/Applications/Calendar.app"
       "/Applications/Spotify.app"
       "/Applications/Visual Studio Code.app"
+      "/Applications/GitButler.app"
       "/Applications/Xcode.app"
       "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
       "/Applications/Ghostty.app"

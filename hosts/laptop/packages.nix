@@ -33,6 +33,7 @@
       "utm"
       "docker-desktop"
       "android-studio"
+      "gitbutler"
 
       # bwees tap
       "firecontrol"
