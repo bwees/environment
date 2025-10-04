@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }:
+{ inputs, ... }:
 
 {
   createDarwin =
@@ -33,11 +33,14 @@
           };
         }
         # Home manager
-        inputs.home-manager.darwinModules.home-manager {
-            home-manager.useGlobalPkgs = true;
-            home-manager.backupFileExtension = "backup";
-            home-manager.extraSpecialArgs = { inherit inputs; };
-            home-manager.users.${username} = { imports = [ ./../home/${username}.nix ]; };
+        inputs.home-manager.darwinModules.home-manager
+        {
+          home-manager.useGlobalPkgs = true;
+          home-manager.backupFileExtension = "backup";
+          home-manager.extraSpecialArgs = { inherit inputs; };
+          home-manager.users.${username} = {
+            imports = [ ./../home/${username}.nix ];
+          };
         }
         # Users
         {
@@ -45,6 +48,14 @@
             description = "${username}";
             home = "/Users/${username}";
           };
+        }
+        {
+          # Necessary for using flakes on this system.
+          nix.settings.experimental-features = "nix-command flakes";
+
+          # Used for backwards compatibility, please read the changelog before changing.
+          # $ darwin-rebuild changelog
+          system.stateVersion = 6;
         }
         inputs.darwin-custom-icons.darwinModules.default
         # install rosetta and xcode devtools

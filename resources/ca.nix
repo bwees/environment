@@ -1,6 +1,6 @@
-{ config, pkgs, ... }:
+{ ... }:
 {
- security.pki.certificates = [
+  security.pki.certificates = [
     ''
       bwees.lab CA
       =========
