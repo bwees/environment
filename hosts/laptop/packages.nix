@@ -37,6 +37,10 @@
 
       # bwees tap
       "firecontrol"
+
+      # obs ndi plugin
+      "distroav"
+      "libndi"
     ];
 
     masApps = {
