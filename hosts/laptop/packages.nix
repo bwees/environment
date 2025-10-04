@@ -34,6 +34,7 @@
       "docker-desktop"
       "android-studio"
       "gitbutler"
+      "zed"
 
       # bwees tap
       "firecontrol"
@@ -73,6 +74,10 @@
     nmap
     duti
     postgresql
+
+    # zed nix plugin
+    nil
+    nixd
   ];
 
   # Fonts
