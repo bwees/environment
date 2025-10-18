@@ -34,6 +34,10 @@
       "homelab-linode" = {
         hostname = "homelab-linode";
       };
+      "bwees-nas" = {
+        hostname = "bwees-nas";
+        user = "root";
+      };
 
       # Starforge hosts
       "starforge-docker" = {
