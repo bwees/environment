@@ -39,7 +39,7 @@
           home-manager.backupFileExtension = "backup";
           home-manager.extraSpecialArgs = { inherit inputs; };
           home-manager.users.${username} = {
-            imports = [ ./../home/${username}.nix ];
+            imports = [ ./../hosts/${hostname}/home/${username}.nix ];
           };
         }
         # Users
