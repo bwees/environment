@@ -2,7 +2,7 @@
 
 {
   system.activationScripts.applications.text = ''
-    echo "c for Rosetta 2..."
+    echo "checking for Rosetta 2..."
     if [ ! -f /Library/Apple/usr/libexec/oah/libRosettaRuntime ]; then
       echo "Installing Rosetta 2..."
       /usr/sbin/softwareupdate --install-rosetta --agree-to-license || true
