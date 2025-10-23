@@ -1,9 +1,9 @@
 { ... }:
 {
-  security.pki.certificates = [
-    ''
-      bwees.lab CA
-      =========
+  system.activationScripts.postActivation.text = ''
+    echo "installing root CA certificates..."
+
+    CERT_DATA="
       -----BEGIN CERTIFICATE-----
       MIIDGTCCAgGgAwIBAgIUNEdp+psSfglA6crbvxuf/WZWf8owDQYJKoZIhvcNAQEL
       BQAwHDEaMBgGA1UEAwwRYndlZXMgSW50ZXJuYWwgQ0EwHhcNMjUwMjA5MDI1OTM0
@@ -23,6 +23,13 @@
       IFklmGg3QXFkzExbttkCuHPTBwJVVrDGGLSDErX/JPAYxKKrKbnnm9ceBsGK7mdl
       SnVDRF55mYN450KtYWAj0T79Oj9flPFHow5/TEE=
       -----END CERTIFICATE-----
-    ''
-  ];
+    "
+    KEYCHAIN="/Users/bwees/Library/Keychains/login.keychain-db"
+    CA_NAME="bwees Internal CA"
+
+    if ! security find-certificate -c "$CA_NAME" "$KEYCHAIN" >/dev/null 2>&1; then
+      echo "$CERT_DATA" | security add-trusted-cert -d -r trustRoot -k "$KEYCHAIN" /dev/stdin
+    fi
+
+  '';
 }
