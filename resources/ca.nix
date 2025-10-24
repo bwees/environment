@@ -24,7 +24,7 @@
       SnVDRF55mYN450KtYWAj0T79Oj9flPFHow5/TEE=
       -----END CERTIFICATE-----
     "
-    KEYCHAIN="/Users/bwees/Library/Keychains/login.keychain-db"
+    KEYCHAIN="/Library/Keychains/System.keychain"
     CA_NAME="bwees Internal CA"
 
     if ! security find-certificate -c "$CA_NAME" "$KEYCHAIN" >/dev/null 2>&1; then
