@@ -32,7 +32,6 @@
       "android-studio"
       "gitbutler"
       "zed"
-      "scenebuilder"
 
       # bwees tap
       "firecontrol"
