@@ -61,7 +61,6 @@
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     nixfmt-rfc-style
-    defaultbrowser
     _1password-cli
     gh
     yt-dlp
