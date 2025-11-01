@@ -59,7 +59,7 @@
         }
         inputs.darwin-custom-icons.darwinModules.default
         # install rosetta and xcode devtools
-        ../resources/macos-system-tools.nix
+        ../lib/macos-system-tools.nix
         customConf
       ];
     };

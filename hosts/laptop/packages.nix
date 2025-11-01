@@ -74,6 +74,9 @@
     # zed nix plugin
     nil
     nixd
+
+    # NixOS Rebuild CLI
+    nixos-rebuild
   ];
 
   # Fonts
@@ -85,6 +88,6 @@
 
   imports = [
     # Icon modifications
-    ../../resources/icons
+    ../../lib/icons
   ];
 }

@@ -145,6 +145,6 @@ in
   '';
 
   imports = [
-    ../../resources/ca.nix
+    ../../lib/ca.nix
   ];
 }
