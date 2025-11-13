@@ -54,6 +54,7 @@
     brews = [
       "mas"
       "cocoapods"
+      "mise"
     ];
   };
 

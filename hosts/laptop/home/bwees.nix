@@ -89,6 +89,9 @@
   programs.mise = {
     enable = true;
     enableZshIntegration = true;
+    package = pkgs.writeShellScriptBin "mise" ''
+      exec mise "$@"
+    '';
 
     settings = {
       experimental = true;
