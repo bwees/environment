@@ -1,6 +1,3 @@
-# init Starship prompt
-eval "$(starship init zsh)"
-
 # PATH
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.pnpm:$PATH"
