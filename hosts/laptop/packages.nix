@@ -32,6 +32,7 @@
       "android-studio"
       "gitbutler"
       "zed"
+      "sf-symbols"
 
       # bwees tap
       "firecontrol"
