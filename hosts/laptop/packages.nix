@@ -40,6 +40,9 @@
       # obs ndi plugin
       "distroav"
       "libndi"
+
+      "teamviewer"
+      "prusaslicer"
     ];
 
     masApps = {
