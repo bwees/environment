@@ -33,6 +33,7 @@
       "gitbutler"
       "zed"
       "sf-symbols"
+      "bruno"
 
       # bwees tap
       "firecontrol"
