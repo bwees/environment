@@ -44,6 +44,7 @@
 
       "teamviewer"
       "prusaslicer"
+      "mqtt-explorer"
     ];
 
     masApps = {
