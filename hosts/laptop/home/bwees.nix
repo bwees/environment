@@ -54,7 +54,6 @@
     userEmail = "brandonwees@gmail.com";
     userName = "bwees";
     lfs.enable = true;
-
     extraConfig = {
       init = {
         defaultBranch = "main";
@@ -62,6 +61,8 @@
       pull = {
         rebase = true;
       };
+
+      core.editor = "code --wait";
 
       # 1P Commit Signing
       user.signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAuYih7LaCHvoa+3P6GjKtGpSWci/qX1OMjKRFk+TbIq";
