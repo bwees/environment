@@ -45,6 +45,8 @@
       "teamviewer"
       "prusaslicer"
       "mqtt-explorer"
+
+      "bambu-studio"
     ];
 
     masApps = {
