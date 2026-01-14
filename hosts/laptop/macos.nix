@@ -34,6 +34,13 @@ in
     show-recents = false;
   };
 
+  environment.loginItems = {
+    enable = true;
+    items = [
+      "/Applications/AlDente.app"
+    ];
+  };
+
   security.pam.services.sudo_local.touchIdAuth = true;
   security.pam.services.sudo_local.watchIdAuth = true;
 

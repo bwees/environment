@@ -32,6 +32,21 @@
         "type": "github"
       }
     },
+    "darwin-login-items": {
+      "locked": {
+        "lastModified": 1763528199,
+        "narHash": "sha256-8LQ5Wp3AJUp71Elax1R9lNkuEbO2Mrnpq+o8qpbhQyc=",
+        "owner": "uncenter",
+        "repo": "nix-darwin-login-items",
+        "rev": "ab75c315893ca206ddf9529e6e3aac6cb01b2f1a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "uncenter",
+        "repo": "nix-darwin-login-items",
+        "type": "github"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -110,6 +125,7 @@
     "root": {
       "inputs": {
         "darwin-custom-icons": "darwin-custom-icons",
+        "darwin-login-items": "darwin-login-items",
         "home-manager": "home-manager",
         "nix-darwin": "nix-darwin",
         "nix-homebrew": "nix-homebrew",

@@ -8,6 +8,7 @@
 
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
     darwin-custom-icons.url = "github:ryanccn/nix-darwin-custom-icons";
+    darwin-login-items.url = "github:uncenter/nix-darwin-login-items";
 
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
@@ -20,6 +21,7 @@
       nixpkgs,
       nix-homebrew,
       darwin-custom-icons,
+      darwin-login-items,
       home-manager,
     }:
     let

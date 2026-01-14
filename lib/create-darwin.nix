@@ -58,6 +58,7 @@
           system.stateVersion = 6;
         }
         inputs.darwin-custom-icons.darwinModules.default
+        inputs.darwin-login-items.darwinModules.default
         # install rosetta and xcode devtools
         ../lib/macos-system-tools.nix
         customConf

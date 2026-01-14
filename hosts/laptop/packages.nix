@@ -34,6 +34,10 @@
       "zed"
       "sf-symbols"
       "bruno"
+      "teamviewer"
+      "prusaslicer"
+      "bambu-studio"
+      "qgroundcontrol"
 
       # bwees tap
       "firecontrol"
@@ -41,12 +45,6 @@
       # obs ndi plugin
       "distroav"
       "libndi"
-
-      "teamviewer"
-      "prusaslicer"
-      "mqtt-explorer"
-
-      "bambu-studio"
     ];
 
     masApps = {
@@ -78,7 +76,9 @@
     mise
     nmap
     duti
-    postgresql
+    restic
+    rsync
+    R
 
     # zed nix plugin
     nil
