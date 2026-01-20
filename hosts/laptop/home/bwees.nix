@@ -51,10 +51,14 @@
 
   programs.git = {
     enable = true;
-    userEmail = "brandonwees@gmail.com";
-    userName = "bwees";
     lfs.enable = true;
-    extraConfig = {
+
+    settings = {
+      user = {
+        email = "brandonwees@gmail.com";
+        name = "bwees";
+      };
+
       init = {
         defaultBranch = "main";
       };
@@ -94,12 +98,6 @@
       exec mise "$@"
     '';
 
-    settings = {
-      experimental = true;
-      verbose = false;
-      auto_install = true;
-    };
-
     globalConfig = {
       tools = {
         node = "lts";
@@ -107,6 +105,9 @@
         just = "latest";
       };
       settings = {
+        experimental = true;
+        verbose = false;
+        auto_install = true;
         idiomatic_version_file_enable_tools = [ ];
       };
     };

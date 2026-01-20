@@ -67,7 +67,6 @@
   # Nix Package Store
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
-    nixfmt-rfc-style
     _1password-cli
     gh
     yt-dlp
@@ -80,9 +79,10 @@
     rsync
     R
 
-    # zed nix plugin
+    # nix tools/lsp
     nil
     nixd
+    nixfmt
 
     # NixOS Rebuild CLI
     nixos-rebuild
