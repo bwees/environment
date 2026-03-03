@@ -30,7 +30,6 @@
       "utm"
       "docker-desktop"
       "android-studio"
-      "gitbutler"
       "zed"
       "sf-symbols"
       "bruno"
@@ -78,6 +77,8 @@
     duti
     restic
     rsync
+    android-tools
+
     R
 
     # nix tools/lsp
