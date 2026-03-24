@@ -44,6 +44,7 @@
       # obs ndi plugin
       "distroav"
       "libndi"
+      "ndi-tools"
     ];
 
     masApps = {
