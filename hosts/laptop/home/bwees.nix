@@ -40,11 +40,8 @@
       };
 
       # Starforge hosts
-      "starforge-docker" = {
+      "starforge-server" = {
         user = "starforge";
-      };
-      "starforge-pc" = {
-        user = "root";
       };
     };
   };
