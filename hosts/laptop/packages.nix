@@ -47,11 +47,11 @@
       "ndi-tools"
     ];
 
-    masApps = {
-      "Spark" = 1176895641;
-      "Goodnotes" = 1444383602;
-      "Xcode" = 497799835;
-    };
+    # masApps = {
+    #   "Spark" = 1176895641;
+    #   "Goodnotes" = 1444383602;
+    #   "Xcode" = 497799835;
+    # };
 
     taps = [
       "bwees/tap"
@@ -79,6 +79,7 @@
     restic
     rsync
     android-tools
+    claude-code
 
     R
 
