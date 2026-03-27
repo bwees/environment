@@ -119,31 +119,31 @@
     settings = {
       auto-update = "off";
       clipboard-paste-protection = false;
-      theme = "atom-one-dark";
+      theme = "vscode-dark-modern";
     };
 
     themes = {
-      atom-one-dark = {
-        background = "1e2127";
-        foreground = "abb2bf";
+      vscode-dark-modern = {
+        background = "1f1f1f";
+        foreground = "cccccc";
 
         palette = [
-          "0=#1e2127"
-          "1=#e06c75"
-          "2=#98c379"
-          "3=#d19a66"
-          "4=#61afef"
-          "5=#c678dd"
-          "6=#56b6c2"
-          "7=#abb2bf"
-          "8=#5c6370"
-          "9=#e06c75"
-          "10=#98c379"
-          "11=#d19a66"
-          "12=#61afef"
-          "13=#c678dd"
-          "14=#56b6c2"
-          "15=#ffffff"
+          "0=#000000"
+          "1=#cd3131"
+          "2=#0dbc79"
+          "3=#e5e510"
+          "4=#2472c8"
+          "5=#bc3fbc"
+          "6=#11a8cd"
+          "7=#e5e5e5"
+          "8=#666666"
+          "9=#f14c4c"
+          "10=#23d18b"
+          "11=#f5f543"
+          "12=#3b8eea"
+          "13=#d670d6"
+          "14=#29b8db"
+          "15=#e5e5e5"
         ];
       };
     };
