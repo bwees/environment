@@ -119,13 +119,13 @@
     settings = {
       auto-update = "off";
       clipboard-paste-protection = false;
-      theme = "vscode-dark-modern";
+      theme = "vscode-dark";
     };
 
     themes = {
-      vscode-dark-modern = {
-        background = "1f1f1f";
-        foreground = "cccccc";
+      vscode-dark = {
+        background = "1e1e1e";
+        foreground = "d4d4d4";
 
         palette = [
           "0=#000000"
