@@ -100,6 +100,7 @@
         node = "lts";
         python = "3.13";
         just = "latest";
+        pnpm = "latest";
       };
       settings = {
         experimental = true;
