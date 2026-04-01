@@ -17,3 +17,6 @@ bindkey '^[[B' down-line-or-search
 
 # brew
 export HOMEBREW_NO_ENV_HINTS=1
+
+# android tools
+export ANDROID_HOME=$HOME/Library/Android/sdk
