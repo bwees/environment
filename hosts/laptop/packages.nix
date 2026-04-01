@@ -80,6 +80,7 @@
     rsync
     android-tools
     claude-code
+    just
 
     R
 
