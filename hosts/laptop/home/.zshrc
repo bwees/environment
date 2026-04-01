@@ -14,3 +14,6 @@ alias gpf="git push --force-with-lease"
 # Enable history search using up/down arrows
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
+
+# brew
+export HOMEBREW_NO_ENV_HINTS=1
