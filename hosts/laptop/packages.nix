@@ -81,6 +81,7 @@
     android-tools
     claude-code
     just
+    mise
 
     R
 

@@ -92,9 +92,6 @@
   programs.mise = {
     enable = true;
     enableZshIntegration = true;
-    package = pkgs.writeShellScriptBin "mise" ''
-      exec mise "$@"
-    '';
 
     globalConfig = {
       tools = {
