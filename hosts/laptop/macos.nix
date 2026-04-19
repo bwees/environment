@@ -68,6 +68,7 @@ in
       "com.apphousekitchen.aldente-pro" = {
         menuBarIconStyle = 2;
         heatProtectMode = true;
+        magsafeControl = 1;
       };
       "com.apple.desktopservices" = {
         # Avoid creating .DS_Store files on network or USB volumes
