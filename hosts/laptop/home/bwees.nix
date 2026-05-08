@@ -118,6 +118,8 @@
       auto-update = "off";
       clipboard-paste-protection = false;
       theme = "vscode-dark";
+      macos-icon = "custom";
+      macos-custom-icon = "/Users/bwees/environment/lib/icons/ghostty.icns";
     };
 
     themes = {
