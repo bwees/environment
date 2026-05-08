@@ -6,7 +6,19 @@
     nix-darwin.url = "github:nix-darwin/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
 
-    nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+#    nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+
+  nix-homebrew = {
+    url = "github:zhaofengli-wip/nix-homebrew";
+    inputs.brew-src.follows = "homebrew-brew";
+  };
+  homebrew-brew = {
+    url = "github:Homebrew/brew/5.1.10";
+    flake = false;
+  };
+
+
+
     darwin-custom-icons.url = "github:ryanccn/nix-darwin-custom-icons";
     darwin-login-items.url = "github:uncenter/nix-darwin-login-items";
 
@@ -20,6 +32,7 @@
       nix-darwin,
       nixpkgs,
       nix-homebrew,
+      homebrew-brew,
       darwin-custom-icons,
       darwin-login-items,
       home-manager,
