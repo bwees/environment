@@ -145,7 +145,7 @@ in
   system.activationScripts.userDefaults.text = ''
     echo "setting macOS file defaults..."
     su -l ${config.users.users.bwees.name} -c '
-      ${pkgs.duti}/bin/duti -s com.softfever3d.orca-slicer stl all
+      ${pkgs.duti}/bin/duti -s com.orcaslicer.OrcaSlicer stl all
       ${pkgs.duti}/bin/duti -s com.autodesk.fusion360 step all
       ${pkgs.duti}/bin/duti -s com.readdle.smartemail-Mac mailto all
       ${pkgs.duti}/bin/duti -s com.microsoft.VSCode json all
