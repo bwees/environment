@@ -8,7 +8,7 @@ export PNPM_HOME="$HOME/.pnpm"
 export CHROME_EXECUTABLE="/Applications/Chromium.app/Contents/MacOS/Chromium"
 
 # aliases
-alias gro="git rebase origin/main"
+alias gro="git rebase origin/HEAD"
 alias gpf="git push --force-with-lease"
 
 # Enable history search using up/down arrows
