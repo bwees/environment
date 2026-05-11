@@ -37,6 +37,7 @@
       "prusaslicer"
       "bambu-studio"
       "qgroundcontrol"
+      "zulip"
 
       # bwees tap
       "firecontrol"
