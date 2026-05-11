@@ -39,6 +39,9 @@
         hostname = "bwees-nas";
         user = "root";
       };
+      "bwees-fedora" = {
+        hostname = "bwees-fedora";
+      };
 
       # Starforge hosts
       "starforge-server" = {
