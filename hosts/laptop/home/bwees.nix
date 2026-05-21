@@ -85,7 +85,7 @@
     enable = true;
 
     enableCompletion = true;
-    initContent = builtins.readFile ./.zshrc;
+    initContent = builtins.readFile ./config/.zshrc;
   };
 
   imports = [
@@ -151,4 +151,7 @@
       };
     };
   };
+
+  # Misc Config Files
+  home.file.".config/1Password/ssh/agent.toml".source = ./config/1password_ssh_agent.toml;
 }
