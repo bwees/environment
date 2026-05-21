@@ -74,7 +74,6 @@
     yt-dlp
     ffmpeg
     wget
-    mise
     nmap
     duti
     restic
@@ -82,7 +81,6 @@
     android-tools
     claude-code
     just
-    mise
 
     R
 

@@ -96,6 +96,10 @@
     enable = true;
     enableZshIntegration = true;
 
+    package = pkgs.writeShellScriptBin "mise" ''
+      exec /opt/homebrew/bin/mise "$@"
+    '';
+
     globalConfig = {
       tools = {
         node = "lts";
