@@ -12,7 +12,7 @@
     casks = [
       "aldente"
       "visual-studio-code"
-      "ungoogled-chromium"
+      "helium-browser"
       "discord"
       "signal"
       "notion"

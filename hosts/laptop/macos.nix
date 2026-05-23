@@ -9,7 +9,7 @@ in
 
   system.defaults.dock = {
     persistent-apps = [
-      "/Applications/Chromium.app"
+      "/Applications/Helium.app"
       "/Applications/Spark.app"
       "/Applications/Discord.app"
       "/System/Applications/Messages.app"
