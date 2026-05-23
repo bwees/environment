@@ -91,6 +91,14 @@
 
     # NixOS Rebuild CLI
     nixos-rebuild
+
+    # orcaslicer build deps
+    cmake
+    gettext
+    libtool
+    automake
+    autoconf
+    texinfo
   ];
 
   # Fonts
