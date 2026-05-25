@@ -13,7 +13,6 @@ in
       "/Applications/Spark.app"
       "/Applications/Discord.app"
       "/System/Applications/Messages.app"
-      "/Applications/Goodnotes.app"
       "/Applications/Notion.app"
       "/System/Applications/System Settings.app"
       "/System/Applications/Calendar.app"
@@ -22,9 +21,8 @@ in
       "/Applications/Xcode.app"
       "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
       "/Applications/Ghostty.app"
+      "/Applications/Photomator.app"
       "/Applications/OrcaSlicer.app"
-      # "/Users/${user}/Applications/Autodesk Fusion.app"
-      "/System/Applications/iPhone Mirroring.app"
     ];
 
     # persistent-others: see below in CustomUserPreferences
