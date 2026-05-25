@@ -52,6 +52,7 @@
       "Spark" = 1176895641;
       "Goodnotes" = 1444383602;
       "Xcode" = 497799835;
+      "Photomator" = 1444636541;
     };
 
     taps = [
