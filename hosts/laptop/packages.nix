@@ -100,6 +100,12 @@
     automake
     autoconf
     texinfo
+
+    # kubernetes
+    k3d
+    k9s
+    xcodegen
+    fluxcd
   ];
 
   # Fonts
