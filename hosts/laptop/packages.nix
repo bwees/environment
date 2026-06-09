@@ -70,7 +70,7 @@
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     _1password-cli
-    htop
+    btop
     gh
     yt-dlp
     ffmpeg
