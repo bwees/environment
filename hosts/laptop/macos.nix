@@ -20,7 +20,7 @@ in
       "/Applications/Spotify.app"
       "/Applications/Visual Studio Code.app"
       "/Applications/Xcode.app"
-      "/Applications/Xcode.app/Contents/Developer/Applicdations/Simulator.app"
+      "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
       "/Applications/Ghostty.app"
       "/Applications/Photomator.app"
       "/Applications/OrcaSlicer.app"
