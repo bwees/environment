@@ -38,6 +38,7 @@
       "bambu-studio"
       "qgroundcontrol"
       "zulip"
+      "balenaetcher"
 
       # bwees tap
       "firecontrol"
