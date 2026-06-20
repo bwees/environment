@@ -105,6 +105,7 @@
         node = "lts";
         python = "3.13";
         pnpm = "latest";
+        go = "latest";
       };
       settings = {
         experimental = true;
