@@ -39,6 +39,7 @@
       "qgroundcontrol"
       "zulip"
       "balenaetcher"
+      "raspberry-pi-imager"
 
       # bwees tap
       "firecontrol"
