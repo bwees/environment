@@ -157,6 +157,9 @@
     };
   };
 
-  # Misc Config Files
+  # Config Files/Folders
   home.file.".config/1Password/ssh/agent.toml".source = ./config/1password_ssh_agent.toml;
+
+  home.file.".claude/settings.json".source = ./config/.claude/settings.json;
+  home.file.".claude/CLAUDE.md".source = ./config/.claude/CLAUDE.md;
 }
