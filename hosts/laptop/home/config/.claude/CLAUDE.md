@@ -1,4 +1,4 @@
-Do not use excessive comments in your code. Comments should be used to explain why something is done, not what is done. The code itself should be clear enough to convey the "what."
+Do not use excessive comments in your code. Comments should be used to explain why something is done, not what is done. The code itself should be clear enough to convey the "what." Comments should only be a single line and should not be used to explain obvious code. If you find yourself writing long comments, consider refactoring your code to make it more self-explanatory. Use spacing to break up code into logical sections and improve readability. Use comments to provide context for complex logic or algorithms, but avoid over-commenting simple code.
 
 Look for formatting, linting, and typechecking tools in Makefiles, mise recipes, CI jobs, and pre-commit hooks. These tools help maintain code quality and consistency across the project.
 Use them when finishing up a batch of changes to ensure code quality.

@@ -67,6 +67,7 @@
       "mise"
 
       # xcode/swift devtools
+      "xcode-build-server"
       "xcodegen"
       "swiftgen"
       "swiftlint"
