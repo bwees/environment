@@ -65,6 +65,12 @@
       "mas"
       "cocoapods"
       "mise"
+
+      # xcode/swift devtools
+      "xcodegen"
+      "swiftgen"
+      "swiftlint"
+      "xcbeautify"
     ];
   };
 
@@ -106,8 +112,9 @@
     # kubernetes
     k3d
     k9s
-    xcodegen
     fluxcd
+
+    platformio-core
   ];
 
   # Fonts
