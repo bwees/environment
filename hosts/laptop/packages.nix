@@ -71,6 +71,7 @@
       "xcodegen"
       "swiftgen"
       "swiftlint"
+      "swiftformat"
       "xcbeautify"
     ];
   };
