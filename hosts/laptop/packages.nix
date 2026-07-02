@@ -40,6 +40,7 @@
       "zulip"
       "balenaetcher"
       "raspberry-pi-imager"
+      "kicad"
 
       # bwees tap
       "firecontrol"
