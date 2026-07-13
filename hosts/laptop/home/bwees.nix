@@ -106,6 +106,7 @@
         python = "3.13";
         pnpm = "latest";
         go = "latest";
+        opentofu = "latest";
       };
       settings = {
         experimental = true;
