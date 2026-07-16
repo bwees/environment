@@ -25,27 +25,8 @@
         };
       };
 
-      # Homelab hosts
-      "homelab-bwees" = {
-        hostname = "homelab-bwees";
-      };
-      "homelab-home" = {
-        hostname = "homelab-home";
-      };
-      "homelab-linode" = {
-        hostname = "homelab-linode";
-      };
-      "bwees-nas" = {
-        hostname = "bwees-nas";
-        user = "root";
-      };
       "bwees-fedora" = {
         hostname = "bwees-fedora";
-      };
-
-      # Starforge hosts
-      "starforge-server" = {
-        user = "starforge";
       };
     };
   };
