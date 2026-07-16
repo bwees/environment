@@ -42,8 +42,8 @@
       "raspberry-pi-imager"
       "kicad"
 
-      # bwees tap
       "firecontrol"
+      "boring-notch"
 
       # obs ndi plugin
       "distroav"
@@ -59,7 +59,14 @@
     };
 
     taps = [
-      "bwees/tap"
+      {
+        name = "bwees/tap";
+        trusted = true;
+      }
+      {
+        name = "TheBoredTeam/boring-notch";
+        trusted = true;
+      }
     ];
 
     brews = [
