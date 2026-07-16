@@ -17,16 +17,16 @@
       StrictHostKeyChecking no
     '';
 
-    matchBlocks = {
+    settings = {
       "*" = {
-        extraOptions = {
-          IdentityAgent = "\"~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock\"";
-          SetEnv = "TERM=xterm-256color";
+        IdentityAgent = "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock";
+        SetEnv = {
+          TERM = "xterm-256color";
         };
       };
 
-      "bwees-fedora" = {
-        hostname = "bwees-fedora";
+      bwees-fedora = {
+        HostName = "bwees-fedora";
       };
     };
   };
