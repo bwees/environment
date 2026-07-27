@@ -1,4 +1,4 @@
-DO NOT USE COMMENTS IN YOUR CODE. ONLY DOCUMENT NON-STANDARD PATTERNS AND YOU MUST EXPLICITLY ASK IF YOU SHOULD COMMENT A PARTICULAR PIECE OF CODE.
+DO NOT USE COMMENTS IN YOUR CODE. ONLY DOCUMENT NON-STANDARD PATTERNS AND YOU MUST EXPLICITLY ASK IF YOU SHOULD COMMENT A PARTICULAR PIECE OF CODE. Comments are a symptom of code that doesn’t effectively convey its intent
 
 Look for formatting, linting, and typechecking tools in Makefiles, mise recipes, CI jobs, and pre-commit hooks. These tools help maintain code quality and consistency across the project.
 Use them when finishing up a batch of changes to ensure code quality.
