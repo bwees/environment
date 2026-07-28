@@ -18,6 +18,7 @@
       "notion"
       "ghostty"
       "1password"
+      "1password-cli"
       "tailscale-app"
       "obs"
       "spotify"
@@ -83,7 +84,6 @@
   # Nix Package Store
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
-    _1password-cli
     btop
     gh
     yt-dlp
