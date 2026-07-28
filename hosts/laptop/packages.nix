@@ -97,8 +97,6 @@
     claude-code
     just
 
-    R
-
     # nix tools/lsp
     nil
     nixd
