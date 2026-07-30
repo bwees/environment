@@ -24,7 +24,7 @@
       "spotify"
       "autodesk-fusion"
       "lightburn"
-      "orcaslicer"
+      "orcaslicer@nightly"
       "affinity"
       "zoom"
       "vlc"
