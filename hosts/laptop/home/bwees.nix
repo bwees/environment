@@ -41,23 +41,20 @@
         name = "bwees";
       };
 
-      init = {
-        defaultBranch = "main";
-      };
-      pull = {
-        rebase = true;
-      };
+      init.defaultBranch = "main";
+      pull.rebase = true;
 
+      submodule.recurse = true;
+      fetch.recurseSubmodules = true;
+      
       core.editor = "code --wait";
 
       # 1P Commit Signing
+      commit.gpgsign = true;
       user.signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAuYih7LaCHvoa+3P6GjKtGpSWci/qX1OMjKRFk+TbIq";
       gpg.format = "ssh";
       gpg."ssh" = {
         program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign";
-      };
-      commit = {
-        gpgsign = true;
       };
     };
   };
