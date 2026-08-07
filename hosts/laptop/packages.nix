@@ -43,6 +43,7 @@
       "raspberry-pi-imager"
       "kicad"
       "atoll"
+      "claude-code"
 
       "firecontrol"
 
@@ -94,7 +95,6 @@
     restic
     rsync
     android-tools
-    claude-code
     just
 
     # nix tools/lsp
