@@ -152,8 +152,4 @@ in
       ${pkgs.duti}/bin/duti -s com.microsoft.VSCode json all
     '
   '';
-
-  imports = [
-    ../../lib/ca.nix
-  ];
 }
