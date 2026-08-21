@@ -43,6 +43,7 @@
 
       init.defaultBranch = "main";
       pull.rebase = true;
+      push.autoSetupRemote = true;
 
       submodule.recurse = true;
       fetch.recurseSubmodules = true;
