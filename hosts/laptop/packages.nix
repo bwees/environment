@@ -44,6 +44,7 @@
       "kicad"
       "atoll"
       "claude-code"
+      "mattermost"
 
       "firecontrol"
 

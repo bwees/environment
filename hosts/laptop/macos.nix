@@ -13,6 +13,7 @@ in
       "/Applications/Spark.app"
       "/Applications/Discord.app"
       "/Applications/Zulip.app"
+      "/Applications/Mattermost.app"
       "/System/Applications/Messages.app"
       "/Applications/Notion.app"
       "/System/Applications/System Settings.app"
