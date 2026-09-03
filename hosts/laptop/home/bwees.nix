@@ -69,6 +69,7 @@
 
   imports = [
     ./starship.nix
+    ./kube.nix
   ];
 
   programs.mise = {

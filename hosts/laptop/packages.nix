@@ -115,6 +115,7 @@
     texinfo
 
     # kubernetes
+    kubectl
     k3d
     k9s
     fluxcd
