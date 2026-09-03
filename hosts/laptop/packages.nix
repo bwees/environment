@@ -45,6 +45,7 @@
       "atoll"
       "claude-code"
       "mattermost"
+      "db-pro"
 
       "firecontrol"
 
