@@ -70,6 +70,7 @@
   imports = [
     ./starship.nix
     ./kube.nix
+    ./vscode
   ];
 
   programs.mise = {

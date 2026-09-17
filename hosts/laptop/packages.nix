@@ -1,4 +1,5 @@
 {
+  inputs,
   pkgs,
   ...
 }:
@@ -86,6 +87,7 @@
 
   # Nix Package Store
   nixpkgs.config.allowUnfree = true;
+  nixpkgs.overlays = [ inputs.nix-vscode-extensions.overlays.default ];
   environment.systemPackages = with pkgs; [
     btop
     gh
