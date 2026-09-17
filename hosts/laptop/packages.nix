@@ -47,6 +47,7 @@
       "claude-code"
       "mattermost"
       "db-pro"
+      "wireshark"
 
       "firecontrol"
 
