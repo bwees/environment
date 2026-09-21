@@ -54,7 +54,7 @@
       # obs ndi plugin
       "distroav"
       "libndi"
-      "ndi-tools"
+      "ndi-tools"      
     ];
 
     masApps = {
@@ -83,6 +83,9 @@
       "swiftlint"
       "swiftformat"
       "xcbeautify"
+
+      # work
+      "pkgconf"
     ];
   };
 
