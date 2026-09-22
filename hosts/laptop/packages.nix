@@ -45,7 +45,6 @@
       "kicad"
       "atoll"
       "claude-code"
-      "mattermost"
       "db-pro"
       "wireshark"
 
