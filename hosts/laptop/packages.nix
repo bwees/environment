@@ -85,6 +85,9 @@
 
       # work
       "pkgconf"
+
+      # csce 441
+      "glm"
     ];
   };
 
