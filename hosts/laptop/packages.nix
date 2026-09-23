@@ -46,7 +46,7 @@
       "atoll"
       "claude-code@latest"
       "db-pro"
-      "wireshark"
+      "wireshark-app"
 
       "firecontrol"
 
