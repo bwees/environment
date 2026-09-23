@@ -44,7 +44,7 @@
       "raspberry-pi-imager"
       "kicad"
       "atoll"
-      "claude-code"
+      "claude-code@latest"
       "db-pro"
       "wireshark"
 
