@@ -12,7 +12,7 @@ in
       "/Applications/Helium.app"
       "/Applications/Spark.app"
       "/Applications/Discord.app"
-      "/Applications/Zulip.app"
+      "/Applications/Zulu.app"
       "/System/Applications/Messages.app"
       "/Applications/Notion.app"
       "/System/Applications/System Settings.app"
