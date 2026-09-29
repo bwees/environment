@@ -107,9 +107,12 @@ When developing server components, use the following patterns:
 
 ### File naming conventions
 
+Use the following naming schemes for new projects. If a projects is already established, follow the naming schemes already defined.
+
 - Use kebab-case for file names, e.g., user-controller.ts, user-service.ts.
 - Use PascalCase for any UI components or files, e.g., UserCard.svelte, UserProfile.svelte.
-- Use snake_case for database table names and column names, e.g., user_accounts, first_name.
+- Use snake_case for database table names e.g., user_accounts.
+- Use camelCase for database columns e.g., firstName.
 - Use camelCase for variable and function names, e.g., userName, getUserProfile().
 - Use UPPER_SNAKE_CASE for environment variables and constants, e.g., DATABASE_URL, MAX_RETRIES.
 - Use UPPER_SNAKE_CASE for enum values, e.g., USER_ROLE_ADMIN, STATUS_ACTIVE.
