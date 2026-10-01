@@ -7,11 +7,11 @@
 let
   marketplace = pkgs.vscode-marketplace;
 
-  unpublished = {
+  overrides = {
     "bwees.custom-formatter" = pkgs.callPackage ./pkgs/custom-formatter.nix { };
   };
 
-  resolve = id: unpublished.${id} or (lib.getAttrFromPath (lib.splitString "." id) marketplace);
+  resolve = id: overrides.${id} or (lib.getAttrFromPath (lib.splitString "." id) marketplace);
 
   baseSettings = import ./settings.nix;
   baseExtensions = import ./extensions.nix;
