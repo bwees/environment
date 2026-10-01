@@ -21,6 +21,7 @@
       "1password"
       "1password-cli"
       "tailscale-app"
+      "netbird-ui"
       "obs"
       "spotify"
       "autodesk-fusion"
@@ -66,6 +67,10 @@
     taps = [
       {
         name = "bwees/tap";
+        trusted = true;
+      }
+      {
+        name = "netbirdio/tap";
         trusted = true;
       }
     ];
