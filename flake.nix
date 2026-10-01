@@ -6,8 +6,7 @@
 
     nix-darwin.url = "github:nix-darwin/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
-    nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
-    nix-homebrew.inputs.brew-src.url = "github:Homebrew/brew/6.0.13";
+    nix-homebrew.url = "github:zhaofengli/nix-homebrew";
 
     darwin-custom-icons.url = "github:ryanccn/nix-darwin-custom-icons";
     darwin-login-items.url = "github:uncenter/nix-darwin-login-items";
