@@ -1,6 +1,9 @@
 Host bwees-fedora
   HostName bwees-fedora
 
+Host vps-server shop-server
+    User starforge
+
 Host *
   IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
   SetEnv TERM="xterm-256color"
