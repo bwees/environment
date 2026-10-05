@@ -1,0 +1,37 @@
+[commit]
+	gpgsign = true
+
+[core]
+	editor = "code --wait"
+
+[fetch]
+	recurseSubmodules = true
+
+[filter "lfs"]
+	clean = "git-lfs clean -- %f"
+	process = "git-lfs filter-process"
+	required = true
+	smudge = "git-lfs smudge -- %f"
+
+[gpg]
+	format = "ssh"
+
+[gpg "ssh"]
+	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[init]
+	defaultBranch = "main"
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[submodule]
+	recurse = true
+
+[user]
+	email = "brandonwees@gmail.com"
+	name = "bwees"
+	signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAuYih7LaCHvoa+3P6GjKtGpSWci/qX1OMjKRFk+TbIq"

@@ -21,7 +21,6 @@
       "1password"
       "1password-cli"
       "tailscale-app"
-      "netbird-ui"
       "obs"
       "spotify"
       "autodesk-fusion"
@@ -98,8 +97,10 @@
 
   # Nix Package Store
   nixpkgs.config.allowUnfree = true;
-  nixpkgs.overlays = [ inputs.nix-vscode-extensions.overlays.default ];
   environment.systemPackages = with pkgs; [
+    git
+    git-lfs
+    starship
     btop
     gh
     yt-dlp
@@ -142,7 +143,7 @@
     nerd-fonts.symbols-only
   ];
 
-  # see home/bwees.nix for mise packages
+  # see dotfiles/mise/config.toml for mise packages
 
   imports = [
     # Icon modifications

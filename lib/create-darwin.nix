@@ -32,16 +32,7 @@
             user = username;
           };
         }
-        # Home manager
-        inputs.home-manager.darwinModules.home-manager
-        {
-          home-manager.useGlobalPkgs = true;
-          home-manager.backupFileExtension = "backup";
-          home-manager.extraSpecialArgs = { inherit inputs; };
-          home-manager.users.${username} = {
-            imports = [ ./../hosts/${hostname}/home/${username}.nix ];
-          };
-        }
+        ./dotfiles.nix
         # Users
         {
           users.users.${username} = {

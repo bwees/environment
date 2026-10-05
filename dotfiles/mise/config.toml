@@ -1,0 +1,12 @@
+[settings]
+auto_install = true
+experimental = true
+idiomatic_version_file_enable_tools = []
+verbose = false
+
+[tools]
+go = "latest"
+node = "lts"
+opentofu = "latest"
+pnpm = "latest"
+python = "3.13"

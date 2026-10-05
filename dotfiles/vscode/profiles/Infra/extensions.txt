@@ -1,0 +1,4 @@
+ms-kubernetes-tools.vscode-kubernetes-tools
+michalhajny.kustomize-navigator
+opentofu.vscode-opentofu
+ms-azuretools.vscode-docker

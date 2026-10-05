@@ -1,0 +1,79 @@
+%YAML 1.1
+---
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: 
+      LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJlRENDQVIyZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWpNU0V3SHdZRFZRUUREQmhyTTNNdGMyVnkKZG1WeUxXTmhRREUzT0RNeU9UQXlOamd3SGhjTk1qWXdOekExTWpFeU5ESTRXaGNOTXpZd056QXlNakV5TkRJNApXakFqTVNFd0h3WURWUVFEREJock0zTXRjMlZ5ZG1WeUxXTmhRREUzT0RNeU9UQXlOamd3V1RBVEJnY3Foa2pPClBRSUJCZ2dxaGtqT1BRTUJCd05DQUFUci9qL0FrWmk3cnZ5dXZFd1g0YlhyVHowYnRVdE1uSU5Gd1JjZkgwUU4KK2VDcTZZVTlZQ0VqM0pyRmdNcFlLWStzQXRxT1RBVXZlTVY3UmJ6VTlSaUZvMEl3UURBT0JnTlZIUThCQWY4RQpCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVTMrNzg4WjVhNXRza2lBNXk2WWNyCkR4SFpJZXd3Q2dZSUtvWkl6ajBFQXdJRFNRQXdSZ0loQUx6UWZzWXUzcmJpSUluKzBZTjg5Z21BSzMwTHZLbFUKejk2V2pjWk1Ld3BMQWlFQTBPWFBvWjczNlk0V0MwTGdkWnB4WHhjM0t1TUFMb3YvQ0NKRGxUbm54b2M9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://eridani:6443
+  name: eridani
+- cluster:
+    certificate-authority-data: 
+      LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJkekNDQVIyZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWpNU0V3SHdZRFZRUUREQmhyTTNNdGMyVnkKZG1WeUxXTmhRREUzT0RBNE1ERXpPRE13SGhjTk1qWXdOakEzTURNd016QXpXaGNOTXpZd05qQTBNRE13TXpBegpXakFqTVNFd0h3WURWUVFEREJock0zTXRjMlZ5ZG1WeUxXTmhRREUzT0RBNE1ERXpPRE13V1RBVEJnY3Foa2pPClBRSUJCZ2dxaGtqT1BRTUJCd05DQUFSdkY5WmlYMmNwUFNaWHgzTUM5eGN4UDVyckVEeDRBWCsrZnVwVVZ6N2MKYlNaVUdiRHJINGZDRk9KNy9EZHV3RlUvdWE5U3BZSm5LTUZscEprY1k2RVhvMEl3UURBT0JnTlZIUThCQWY4RQpCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVTNTZ095VWlUUzlvclRwRG1OTTExCjM1UGF0bEF3Q2dZSUtvWkl6ajBFQXdJRFNBQXdSUUloQUtsRmtJVFJWVkFENUwvMnRJNlpLRDBQRTdzMnI0eXIKdHpLWm51ZWhUajdCQWlBVkU0VnVwSUJXWnVndHJBbXpGVWFMWHZtVWVMT3RFQnBvQ1MvOFVPOGtoZz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://grace:6443
+  name: hail-mary
+- cluster:
+    certificate-authority-data: 
+      LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJlRENDQVIyZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWpNU0V3SHdZRFZRUUREQmhyTTNNdGMyVnkKZG1WeUxXTmhRREUzT0RNeU9UQXhOVEl3SGhjTk1qWXdOekExTWpFeU1qTXlXaGNOTXpZd056QXlNakV5TWpNeQpXakFqTVNFd0h3WURWUVFEREJock0zTXRjMlZ5ZG1WeUxXTmhRREUzT0RNeU9UQXhOVEl3V1RBVEJnY3Foa2pPClBRSUJCZ2dxaGtqT1BRTUJCd05DQUFTeFcvekdqRWVkSkJzU0RaQTk3Mk1hTEw5c05CRE10ZE9EK0drU05VZU8KWjJZdnQ1bjN2Sm5xNkxDdkdLYmZWTm5MVm1JK3hTVXl3SjZXcUZVWXp0clVvMEl3UURBT0JnTlZIUThCQWY4RQpCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVWZ6Q1JTSlFBdEJEU1VFNm8vRTJWCnJmOUl4SEV3Q2dZSUtvWkl6ajBFQXdJRFNRQXdSZ0loQU1HcnVvVG5INmVyd0taR0poZUpaeTdqSlNkdVRmMEQKWG9LS0swU2kxOVNOQWlFQSt6TjN6aE5yWU9HemFJVnFxWUhhdloxNWNCeVA1S0MrMjM5d1dXNlVXYzg9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://stepien:6443
+  name: stepien
+- cluster:
+    certificate-authority-data: 
+      LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJkekNDQVIyZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWpNU0V3SHdZRFZRUUREQmhyTTNNdGMyVnkKZG1WeUxXTmhRREUzT0RJd05qTTRNell3SGhjTk1qWXdOakl4TVRZME16VTJXaGNOTXpZd05qRTRNVFkwTXpVMgpXakFqTVNFd0h3WURWUVFEREJock0zTXRjMlZ5ZG1WeUxXTmhRREUzT0RJd05qTTRNell3V1RBVEJnY3Foa2pPClBRSUJCZ2dxaGtqT1BRTUJCd05DQUFTUktlaUE0aC9oNFhGUkhPS1psN1FmZ1pOcmJwWXZSWmhFNVNYbHYrOGsKcWRLNWdUUFhPbzVlMkFNT2dWREI0NXpJVldhUGx3cVNYQ3VSQ2VEK2pvUktvMEl3UURBT0JnTlZIUThCQWY4RQpCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVWhQTHUvYjRoKzg1OENDRXkxWHZrCnBFdUhGY013Q2dZSUtvWkl6ajBFQXdJRFNBQXdSUUlnVXVFb3JESW5oSnI5cytvc056RWlibVdXcFpNSHQ0TDkKR1grR2tLVFFXOG9DSVFEN0VzSkJ0ZDNWblIxTkUzVW1aTjhGSmsyamJaTEJtalRPWUhzbkYxNEhJZz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://tau-ceti:6443
+  name: tau-ceti
+contexts:
+- context:
+    cluster: eridani
+    user: eridani
+  name: eridani
+- context:
+    cluster: hail-mary
+    user: hail-mary
+  name: hail-mary
+- context:
+    cluster: stepien
+    user: stepien
+  name: stepien
+- context:
+    cluster: tau-ceti
+    user: tau-ceti
+  name: tau-ceti
+kind: Config
+users:
+- name: eridani
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1
+      args:
+      - k8s-eridani
+      command: /run/current-system/sw/bin/kube-op-cred
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: hail-mary
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1
+      args:
+      - k8s-hail-mary
+      command: /run/current-system/sw/bin/kube-op-cred
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: stepien
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1
+      args:
+      - k8s-stepien
+      command: /run/current-system/sw/bin/kube-op-cred
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tau-ceti
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1
+      args:
+      - k8s-tau-ceti
+      command: /run/current-system/sw/bin/kube-op-cred
+      interactiveMode: IfAvailable
+      provideClusterInfo: false

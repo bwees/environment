@@ -1,0 +1,135 @@
+format = "$os$username$hostname$directory$git_branch$git_commit$git_status$c$golang$haskell$java$julia$nodejs$nim$rust$scala$dotnet$docker_context$character"
+
+[c]
+symbol = " "
+
+[directory]
+format = "[$path ]($style)"
+read_only = " "
+truncation_length = 3
+truncation_symbol = ".../"
+
+[docker_context]
+symbol = " "
+
+[fill]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+commit_hash_length = 4
+tag_symbol = "🔖 "
+
+[git_status]
+format = "[$all_status$ahead_behind ]($style)"
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hostname]
+format = "[$ssh_symbol$hostname ]($style)"
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[meson]
+symbol = "喝 "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[os.symbols]
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "﯑ "
+Gentoo = " "
+HardenedBSD = "ﲊ "
+Illumos = " "
+Linux = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = " "
+OracleLinux = " "
+Pop = " "
+Raspbian = " "
+RedHatEnterprise = " "
+Redhat = " "
+Redox = " "
+SUSE = " "
+Solus = "ﴱ "
+Ubuntu = " "
+Unknown = " "
+Windows = " "
+openSUSE = " "
+
+[package]
+symbol = " "
+
+[pijul_channel]
+symbol = "🪺 "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "ﳒ "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[spack]
+symbol = "🅢 "
+
+[time]
+disabled = false
+format = "[$time]($style)"
+style = "fg:white"
+time_format = "%R"
+
+[username]
+disabled = false
+format = "[$user ]($style)"
+show_always = true
