@@ -79,7 +79,7 @@
       "cocoapods"
       "mise"
 
-      { name = "tailmux"; start_service = true; }
+      "tailmux" # need to run sudo brew services start tailmux
 
       # xcode/swift devtools
       "xcode-build-server"
