@@ -69,7 +69,7 @@
         trusted = true;
       }
       {
-        name = "netbirdio/tap";
+        name = "growlyx/tap";
         trusted = true;
       }
     ];
@@ -78,6 +78,8 @@
       "mas"
       "cocoapods"
       "mise"
+
+      { name = "tailmux"; start_service = true; }
 
       # xcode/swift devtools
       "xcode-build-server"
