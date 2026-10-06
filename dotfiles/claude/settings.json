@@ -4,6 +4,7 @@
     "pr": "",
     "sessionUrl": false
   },
+  "effortLevel": "high",
   "skipDangerousModePermissionPrompt": true,
-  "effortLevel": "high"
+  "switchModelsOnFlag": true
 }
