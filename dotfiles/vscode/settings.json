@@ -55,7 +55,7 @@
     "svelte.enable-ts-plugin",
 
     "json.schemaDownload.trustedDomains",
-    "yaml.disableSchemaDetection"
+    "yaml.disableSchemaDetection",
   ],
 
   "workbench.colorTheme": "Dark Modern",
@@ -70,12 +70,12 @@
   "editor.inlineSuggest.edits.showCollapsed": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
-    "source.organizeImports": "always"
+    "source.organizeImports": "always",
   },
   "editor.quickSuggestions": {
     "other": "on",
     "comments": "off",
-    "strings": "off"
+    "strings": "off",
   },
 
   "files.autoSave": "onFocusChange",
@@ -97,7 +97,7 @@
     "*.sqlite3": "${capture}.${extname}-*",
     "*.db3": "${capture}.${extname}-*",
     "*.sdb": "${capture}.${extname}-*",
-    "*.s3db": "${capture}.${extname}-*"
+    "*.s3db": "${capture}.${extname}-*",
   },
 
   "git.autofetch": true,
@@ -125,7 +125,7 @@
     "plaintext": false,
     "markdown": true,
     "scminput": false,
-    "r": false
+    "r": false,
   },
 
   "errorLens.delayMode": "debounce",
@@ -133,7 +133,7 @@
   "errorLens.alignMessage": {
     "start": 100,
     "end": 0,
-    "minimumMargin": 0
+    "minimumMargin": 0,
   },
 
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -159,7 +159,7 @@
     "https://raw.githubusercontent.com/devcontainers/spec/": true,
     "https://raw.githubusercontent.com/microsoft/vscode/": true,
     "https://schemastore.azurewebsites.net/": true,
-    "https://www.schemastore.org/": true
+    "https://www.schemastore.org/": true,
   },
 
   "yaml.disableSchemaDetection": [
@@ -168,6 +168,9 @@
     "**/.gitea/workflows/*.yml",
     "**/.gitea/workflows/*.yaml",
     "**/.forgejo/workflows/*.yml",
-    "**/.forgejo/workflows/*.yaml"
-  ]
+    "**/.forgejo/workflows/*.yaml",
+  ],
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+  },
 }
