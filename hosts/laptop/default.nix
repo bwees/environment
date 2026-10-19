@@ -6,5 +6,6 @@
     ./dotfiles.nix
     ./vscode.nix
     ./kube.nix
+    ./orcaslicer.nix
   ];
 }
