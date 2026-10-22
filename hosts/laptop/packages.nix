@@ -20,7 +20,6 @@
       "ghostty"
       "1password"
       "1password-cli"
-      "tailscale-app"
       "obs"
       "spotify"
       "autodesk-fusion"
