@@ -47,6 +47,7 @@
       "claude-code@latest"
       "db-pro"
       "wireshark-app"
+      "t3-code"
 
       "firecontrol"
 
