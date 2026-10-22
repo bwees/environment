@@ -10,5 +10,6 @@
     ".kube/clusters.yaml" = "kube/clusters.yaml";
     ".claude/CLAUDE.md" = "claude/CLAUDE.md";
     ".claude/settings.json" = "claude/settings.json";
+    "/opt/homebrew/etc/tailmux/config.json" = "tailmux/config.json";
   };
 }

@@ -1,0 +1,28 @@
+{
+  "hostname": "brandon-macbook-pro",
+  "socks5": "127.0.0.1:1055",
+  "http": "127.0.0.1:1056",
+  "direct": true,
+  "tailnets": [
+    {
+      "name": "personal",
+      "state": "personal"
+    },
+    {
+      "name": "starforge",
+      "state": "starforge"
+    },
+    {
+      "name": "futo",
+      "state": "futo"
+    },
+    {
+      "name": "maroonrides",
+      "state": "maroonrides"
+    }
+  ],
+  "tun": {
+    "enabled": true,
+    "cgnat": true
+  }
+}
