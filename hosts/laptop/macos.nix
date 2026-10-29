@@ -18,6 +18,7 @@ in
       "/System/Applications/System Settings.app"
       "/System/Applications/Calendar.app"
       "/Applications/Spotify.app"
+      "/Applications/T3 Code (Beta).app"
       "/Applications/Visual Studio Code.app"
       "/Applications/Xcode.app"
       "/Applications/Xcode.app/Contents/Applications/DeviceHub.app"
