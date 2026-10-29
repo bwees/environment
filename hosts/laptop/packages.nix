@@ -46,7 +46,7 @@
       "claude-code@latest"
       "db-pro"
       "wireshark-app"
-      "paseo"
+      "t3-code"
       "solidcraft"
 
       "firecontrol"
