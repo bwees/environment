@@ -11,5 +11,8 @@
     ".claude/CLAUDE.md" = "claude/CLAUDE.md";
     ".claude/settings.json" = "claude/settings.json";
     "/opt/homebrew/etc/tailmux/config.json" = "tailmux/config.json";
+    ".t3/userdata/settings.json" = "t3/settings.json";
+    ".t3/userdata/client-settings.json" = "t3/client-settings.json";
+    ".t3/userdata/keybindings.json" = "t3/keybindings.json";
   };
 }

@@ -33,6 +33,7 @@
           };
         }
         ./dotfiles.nix
+        ./skills.nix
         # Users
         {
           users.users.${username} = {

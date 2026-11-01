@@ -10,6 +10,19 @@
 
     darwin-custom-icons.url = "github:ryanccn/nix-darwin-custom-icons";
     darwin-login-items.url = "github:uncenter/nix-darwin-login-items";
+
+    mattpocock-skills = {
+      url = "github:mattpocock/skills";
+      flake = false;
+    };
+    samber-golang-skills = {
+      url = "github:samber/cc-skills-golang";
+      flake = false;
+    };
+    vercel-skills = {
+      url = "github:vercel-labs/skills";
+      flake = false;
+    };
   };
 
   outputs =
@@ -20,6 +33,7 @@
       nix-homebrew,
       darwin-custom-icons,
       darwin-login-items,
+      ...
     }:
     let
       inherit (self) outputs;

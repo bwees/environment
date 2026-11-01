@@ -10,10 +10,11 @@ let
   user = config.system.primaryUser;
   home = config.users.users.${user}.home;
   linkPath = target: if lib.hasPrefix "/" target then target else "${home}/${target}";
+  sourcePath = source: if lib.hasPrefix "/" source then source else "${cfg.root}/${source}";
 
   manifest = pkgs.writeText "dotfiles-links" (
     lib.concatStrings (
-      lib.mapAttrsToList (target: source: "${linkPath target}\t${cfg.root}/${source}\n") cfg.links
+      lib.mapAttrsToList (target: source: "${linkPath target}\t${sourcePath source}\n") cfg.links
     )
   );
 
@@ -56,7 +57,7 @@ in
     links = lib.mkOption {
       type = lib.types.attrsOf lib.types.str;
       default = { };
-      description = "Home-relative or absolute link path mapped to a path inside `root`.";
+      description = "Home-relative or absolute link path mapped to a path inside `root`, or to an absolute path such as a store path.";
     };
   };
 

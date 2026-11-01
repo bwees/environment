@@ -47,6 +47,22 @@
         "type": "github"
       }
     },
+    "mattpocock-skills": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793456610,
+        "narHash": "sha256-3vhd77xfZjKUYJsIwPFevIZPUAzUgZXr0RYj5NQrBwk=",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "rev": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mattpocock",
+        "repo": "skills",
+        "type": "github"
+      }
+    },
     "nix-darwin": {
       "inputs": {
         "nixpkgs": [
@@ -106,9 +122,44 @@
       "inputs": {
         "darwin-custom-icons": "darwin-custom-icons",
         "darwin-login-items": "darwin-login-items",
+        "mattpocock-skills": "mattpocock-skills",
         "nix-darwin": "nix-darwin",
         "nix-homebrew": "nix-homebrew",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "samber-golang-skills": "samber-golang-skills",
+        "vercel-skills": "vercel-skills"
+      }
+    },
+    "samber-golang-skills": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792741853,
+        "narHash": "sha256-RqhTRSPCDtQkcxi5vwwNh1k8yIRozQIWZgM4kTuqBu4=",
+        "owner": "samber",
+        "repo": "cc-skills-golang",
+        "rev": "246b6c4c1ab3077dee114beb9ade3bb0527dfebc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "samber",
+        "repo": "cc-skills-golang",
+        "type": "github"
+      }
+    },
+    "vercel-skills": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793234976,
+        "narHash": "sha256-FI+bM+AtmOb4rpeQnR0XHvGhuc7XhF5NQ73zmqh6Cb0=",
+        "owner": "vercel-labs",
+        "repo": "skills",
+        "rev": "92a9a34ac3bf88e695e468b90c7bf32f163d32c8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vercel-labs",
+        "repo": "skills",
+        "type": "github"
       }
     }
   },

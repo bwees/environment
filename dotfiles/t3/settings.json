@@ -1,0 +1,20 @@
+{
+  "defaultAutoPull": true,
+  "projectSettingsFolded": true,
+  "enableAgentDeviceAccess": true,
+  "enableDeviceSupport": true,
+  "deviceOnboardingCompleted": true,
+  "idleCompaction": "onReturn",
+  "branchNamingMode": "semantic",
+  "removeAgentCreditsOnMerge": true,
+  "sourceControlWritingStyle": {
+    "mode": "conventional_commits"
+  },
+  "pullRequestMergeMethod": "squash",
+  "providerInstances": {
+    "codex": {
+      "driver": "codex",
+      "enabled": false
+    }
+  }
+}
