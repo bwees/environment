@@ -33,7 +33,6 @@
           };
         }
         ./dotfiles.nix
-        ./orcaslicer.nix
         # Users
         {
           users.users.${username} = {
