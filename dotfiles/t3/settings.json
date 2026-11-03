@@ -14,7 +14,7 @@
   "providerInstances": {
     "codex": {
       "driver": "codex",
-      "enabled": false
+      "enabled": true
     }
   }
 }

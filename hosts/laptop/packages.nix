@@ -44,6 +44,7 @@
       "kicad"
       "atoll"
       "claude-code@latest"
+      "codex"
       "db-pro"
       "wireshark-app"
       "t3-code"
