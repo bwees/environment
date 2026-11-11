@@ -60,6 +60,7 @@
 
     masApps = {
       "Spark" = 1176895641;
+      "Canary Mail" = 1236045954;
       "Goodnotes" = 1444383602;
       "Xcode" = 497799835;
       "Photomator" = 1444636541;
