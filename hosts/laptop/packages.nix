@@ -141,6 +141,7 @@
     fluxcd
 
     platformio-core
+    dfu-util
   ];
 
   # Fonts
