@@ -1,4 +1,10 @@
 {
+  "favorites": [
+    {
+      "provider": "claudeAgent",
+      "model": "claude-opus-5-5"
+    }
+  ],
   "defaultAutoPull": true,
   "projectSettingsFolded": true,
   "enableAgentDeviceAccess": true,
