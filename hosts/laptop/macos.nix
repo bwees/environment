@@ -50,6 +50,7 @@ in
     finder.AppleShowAllExtensions = true;
     NSGlobalDomain.NSNavPanelExpandedStateForSaveMode = true;
     NSGlobalDomain.NSNavPanelExpandedStateForSaveMode2 = true;
+    NSGlobalDomain.AppleReduceDesktopTinting = true;
     LaunchServices.LSQuarantine = false; # disables "Are you sure?" for new apps
     loginwindow.GuestEnabled = false;
     ".GlobalPreferences"."com.apple.mouse.scaling" = 1.0;
