@@ -10,7 +10,7 @@ in
   system.defaults.dock = {
     persistent-apps = [
       "/Applications/Helium.app"
-      "/Applications/Canary Mail.app"
+      "/Applications/Spark.app"
       "/Applications/Discord.app"
       "/Applications/Zulu.app"
       "/System/Applications/Messages.app"
