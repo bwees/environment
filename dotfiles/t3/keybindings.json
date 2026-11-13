@@ -190,21 +190,6 @@
     "when": "composerFocus && !draftThreadRoute"
   },
   {
-    "key": "mod+n",
-    "command": "chat.new",
-    "when": "!terminalFocus"
-  },
-  {
-    "key": "mod+shift+o",
-    "command": "chat.new",
-    "when": "!terminalFocus"
-  },
-  {
-    "key": "mod+shift+n",
-    "command": "chat.newLocal",
-    "when": "!terminalFocus"
-  },
-  {
     "key": "mod+alt+n",
     "command": "chat.newWithoutProject",
     "when": "!terminalFocus"
@@ -420,5 +405,20 @@
     "key": "mod+shift+4",
     "command": "usage.period.quarter",
     "when": "usagePageOpen"
+  },
+  {
+    "key": "mod+shift+n",
+    "command": "chat.new",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "mod+n",
+    "command": "chat.newLocal",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "alt+shift+˜",
+    "command": "chat.new",
+    "when": "!terminalFocus"
   }
 ]
