@@ -20,9 +20,10 @@ Every shape is a **sketch plus an operation**. Every position comes from sketch 
    - Plan-view sketches project datum curves (`construction: false`) and extrude them.
    - Wall and section sketches sit on construction planes that pass through datum anchor points.
    - An opening for a connector projects that connector's own face or edges, then offsets them or dimensions off them with a clearance parameter. Copying the connector's coordinates by hand is the thing to avoid.
-5. **Parameters for shared values.**
-   - A value used by more than one feature or part is a named user parameter (camelCase): stock and wall thickness, clearances, parting height, counts.
-   - A one-off size stays a literal number in its sketch or feature.
+5. **Few parameters: only critical values that are reused.**
+   - A user parameter (camelCase) has to be both: it sets fit or function (clearances, wall, parting height, snap engagement, stock thickness), and more than one feature or part uses it.
+   - Everything else is a literal number in its sketch or feature, including cosmetic radii, chamfers, notch sizes and per-feature lengths.
+   - Fold derived values into the expressions that use them; helper parameters don't earn a place.
 6. **Simplest sketch that holds the intent.**
    - Use the fewest curves.
    - Put profile corner radii in the sketch, not as a later 3D fillet.

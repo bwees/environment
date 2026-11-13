@@ -29,4 +29,15 @@
 - One sketch, several operations: pick regions with `profiles: [{point: [x, y]}]` and `exact_regions: true`. A curve chain whose ends land on another closed loop (T-junctions) splits regions correctly.
 - `edit.restore_checkpoint` can leave a sketch open with the marker rolled back. Check `active_sketch` and `marker` after every restore. Fix with `sketch.finish` then `timeline.roll_to {}`.
 - `measure` counts each instanced body; `inspect_design` counts definitions. Don't compare body counts across the two.
+- When re-pointing references to a new sketch:
+  - Planes take `timeline.edit` on their `through` / three-point references.
+  - A re-made projection gets new curve ids, so extrude profiles need updating and constraints on the old projected point need re-adding.
+  - Fillet and chamfer edges stored by sketch-curve names lose their edges. Rebuild them in place with `timeline.redefine` using the same picks.
+- The user edits the same design in the app while you work. A value that changed between your calls is theirs: report it, never "fix" it back. Re-read `revision`, the parameters and the baseline `measure` before each stage, and don't `edit.restore_checkpoint` once the user may have edited since the checkpoint.
+- Imported artwork (logos, text outlines) can't be constrained rigidly. Put it on a `construct.plane.three_points` plane whose first point is a datum point: the plane's origin sits on that point and its x axis points at the second point. Then insert the artwork with `fixed: true`, so it follows the datum.
+- Moving sketch curves from Fusion: read `sketchCurve.worldGeometry.getData()` (control points, knots, weights) and write a DXF (`AC1015`, `LINE` and `SPLINE` entities) for `sketch.insert_dxf`. Fusion's imported-logo splines are cubic Béziers with weights of 1.
+
+## Fusion timeline groups
+
+Items after the marker report `healthState` 4 (rolled back), not suppressed. To read what they produce, `timeline.moveToEnd()` inside a script, read, and restore `markerPosition` in a `finally`.
 - Batch is all or nothing. Read `failed.index`, fix that step, and resend.
