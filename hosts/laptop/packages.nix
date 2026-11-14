@@ -49,6 +49,7 @@
       "wireshark-app"
       "t3-code"
       "solidcraft"
+      "moonlight"
 
       "firecontrol"
 
