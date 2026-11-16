@@ -29,7 +29,6 @@
       "zoom"
       "vlc"
       "utm"
-      "docker-desktop"
       "android-studio"
       "zed"
       "sf-symbols"
@@ -50,6 +49,8 @@
       "t3-code"
       "solidcraft"
       "moonlight"
+      "bwees/tap/zulu"
+      "bwees/tap/kiri"
 
       "firecontrol"
 
@@ -133,6 +134,9 @@
     automake
     autoconf
     texinfo
+
+    # containers - runtime by kiri
+    docker
 
     # kubernetes
     kubectl
