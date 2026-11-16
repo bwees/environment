@@ -7,5 +7,6 @@
     ./skills.nix
     ./vscode.nix
     ./kube.nix
+    ./kiri.nix
   ];
 }
