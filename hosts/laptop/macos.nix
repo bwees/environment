@@ -149,7 +149,7 @@ in
     echo "setting macOS file defaults..."
     su -l ${config.users.users.bwees.name} -c '
       ${pkgs.duti}/bin/duti -s com.orcaslicer.OrcaSlicer stl all
-      ${pkgs.duti}/bin/duti -s io.canarymail.mac mailto
+      ${pkgs.duti}/bin/duti -s com.readdle.smartemail-Mac mailto
       ${pkgs.duti}/bin/duti -s com.microsoft.VSCode json all
     '
   '';
