@@ -49,6 +49,7 @@
       "t3-code"
       "solidcraft"
       "moonlight"
+      "vorssaint"
       "bwees/tap/zulu"
       "bwees/tap/kiri"
 
