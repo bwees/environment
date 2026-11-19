@@ -5,11 +5,26 @@
       "model": "claude-opus-5-5"
     }
   ],
+  "storageCleanup": {
+    "worktreeAfterDays": 3,
+    "worktreeSettledAfterDays": 3,
+    "worktreeOnMerge": true,
+    "worktreeOnDelete": true
+  },
+  "worktreesDirectory": "~/Developer/worktrees",
   "defaultAutoPull": true,
   "projectSettingsFolded": true,
   "enableAgentDeviceAccess": true,
   "enableDeviceSupport": true,
   "deviceOnboardingCompleted": true,
+  "deviceHosts": [
+    {
+      "kind": "ssh",
+      "id": "77a98070-4f73-4c38-9092-5e1000c53096",
+      "label": "bwees-fedora",
+      "target": "bwees@bwees-fedora"
+    }
+  ],
   "idleCompaction": "onReturn",
   "branchNamingMode": "semantic",
   "removeAgentCreditsOnMerge": true,
