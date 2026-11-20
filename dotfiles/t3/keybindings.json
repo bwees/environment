@@ -40,10 +40,6 @@
     "when": "!terminalFocus"
   },
   {
-    "key": "mod+j",
-    "command": "terminal.toggle"
-  },
-  {
     "key": "mod+alt+b",
     "command": "rightPanel.toggle"
   },
@@ -425,5 +421,9 @@
     "key": "alt+shift+˜",
     "command": "chat.new",
     "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "terminal.toggle"
   }
 ]
