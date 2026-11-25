@@ -26,6 +26,7 @@
     }
   ],
   "idleCompaction": "onReturn",
+  "linkedEnvironmentsEnabled": true,
   "branchNamingMode": "semantic",
   "removeAgentCreditsOnMerge": true,
   "sourceControlWritingStyle": {
