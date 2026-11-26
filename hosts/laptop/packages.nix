@@ -41,7 +41,6 @@
       "balenaetcher"
       "raspberry-pi-imager"
       "kicad"
-      "atoll"
       "claude-code@latest"
       "codex"
       "db-pro"
