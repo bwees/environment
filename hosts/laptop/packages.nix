@@ -52,6 +52,7 @@
       "vorssaint"
       "bwees/tap/zulu"
       "bwees/tap/kiri"
+      "futo-org/tap/futo-backups"
 
       "firecontrol"
 
@@ -75,6 +76,10 @@
       }
       {
         name = "growlyx/tap";
+        trusted = true;
+      }
+      {
+        name = "futo-org/tap";
         trusted = true;
       }
     ];
