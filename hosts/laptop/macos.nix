@@ -34,8 +34,9 @@ in
     enable = true;
     items = [
       "/Applications/AlDente.app"
-      "/Applications/Atoll.app"
       "/Applications/1Password.app"
+      "/Applications/Vorssaint.app"
+      "/Applications/TailmuxBar.app"
     ];
   };
 
